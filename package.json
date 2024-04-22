@@ -1,0 +1,26 @@
+{
+  "name": "stock-trade-api",
+  "version": "1.0.0",
+  "description": "Stock Trade NodeJS API",
+  "main": "index.js",
+  "repository": "https://github.com/RomuloGuimaraesz/stock-trade-api",
+  "author": "Rômulo de Farias <romulo_fantomaz@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@commitlint/cli": "^19.2.2",
+    "@commitlint/config-conventional": "^19.2.2",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2"
+  },
+  "scripts": {
+    "prepare": "husky"
+  }
+}
